@@ -1,0 +1,84 @@
+/* Custom CSS untuk carousel dan layout */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.small-image {
+    width: 200px; /* Atur ukuran gambar sesuai keinginan Anda */
+    height: auto; /* Memastikan aspek rasio tetap sama */
+}
+
+.carousel-item img {
+    max-height: 80%;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 0.5em;
+}
+
+.carousel-caption p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container .row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card img {
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Navbar Brand Image */
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: rgb(245, 26, 26);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom styles for the rest of the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
